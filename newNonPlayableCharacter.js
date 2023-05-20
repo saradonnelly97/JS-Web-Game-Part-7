@@ -27,7 +27,7 @@ function newNonPlayableCharacter(x, y) {
         direction = 'east'
         element.src = `./assets/red-character/east.gif`
         await sleep(time)
-        
+        stop()
     }
 
     function walkNorth() {
